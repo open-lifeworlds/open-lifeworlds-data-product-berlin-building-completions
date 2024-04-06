@@ -1,0 +1,18 @@
+---
+id: berlin-lor-building-completions
+name: Berlin LOR building completions
+metadata:
+  - ownership:
+  - schema:
+description:
+input_ports:
+output_ports:
+metrics:
+  - quality:
+  - operational:
+classification:
+tags:
+  - berlin
+  - lor
+  - housing
+  - building
