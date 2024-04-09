@@ -1,10 +1,17 @@
 ---
 id: berlin-lor-building-completions
-name: Berlin LOR building completions
+name: Berlin LOR Building Completions
 metadata:
-  - ownership:
+  - ownership: Open Lifeworlds
+  - domain: geodata
   - schema:
-description:
+      - buildings: number of buildings
+      - volume: buildings volume in 1000qm
+      - usage_area: buildings usage are in 100sqm
+      - apartments: number of apartments
+      - apartments_usage_area: apartments usage area in 100sqm
+      - estimated_costs: estimated costs
+description: This data products provides Berlin building completion data on different LOR hierarchy levels
 input_ports:
   - id: berlin-lor-geodata
     metadata:
@@ -45,12 +52,33 @@ input_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions-source-aligned/main/data/berlin-building-completions-2022-00/berlin-building-completions-2022-00-15-completions-by-district-new-non-residential-buildings.csv
 
 output_ports:
+  - id: berlin-lor-building-completions-geojson
+    metadata:
+      name: Berlin LOR building completions geojson
+      author: Open Lifeworlds
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-building-completions/tree/main/data
+      license: CC-BY-4.0
+      updated: 2024-04-15
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-building-completions/main/data/berlin-lor-building-completions-2020-00/berlin-lor-building-completions-2020-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-building-completions/main/data/berlin-lor-building-completions-2021-00/berlin-lor-building-completions-2021-00-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-building-completions/main/data/berlin-lor-building-completions-2022-00/berlin-lor-building-completions-2022-00-districts.geojson
+  - id: berlin-lor-building-completions-statistics
+    metadata:
+      name: Berlin LOR building completions statistics
+      author: Open Lifeworlds
+      url: https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-building-completions/main/data/berlin-lor-building-completions-2020-00/berlin-lor-building-completions-2020-00-districts.geojson
+      license: CC-BY-4.0
+      updated: 2024-04-15
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-building-completions/main/data/berlin-lor-building-completions-statistics/berlin-lor-building-completions-statistics.json
 metrics:
   - quality:
+      - completeness
   - operational:
 classification:
 tags:
   - berlin
   - lor
-  - housing
   - building
+  - housing
