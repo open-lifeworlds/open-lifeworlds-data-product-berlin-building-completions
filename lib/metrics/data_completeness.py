@@ -9,10 +9,10 @@ data_path = os.path.join(script_path, "..", "..", "data")
 
 key_figure_group = "berlin-lor-building-completions"
 
-prefixed = [
+prefixes = [
     "including_measures_on_existing_buildings",
-    "completions_new_building",
-    "buildings_with_1_and_2_apartments",
+    "new_buildings",
+    "new_buildings_with_1_and_2_apartments",
     "new_non_residential_buildings"
 ]
 
@@ -61,8 +61,9 @@ for year in [2020, 2021, 2022]:
                         PropertiesTestCase,
                         f"test_{key_figure_group}_{year}_{half_year}_{lor_area_type}_{feature_id}".replace('-', '_'),
                         lambda self, feature=feature: self.assertTrue(
-                            all(f"{prefix}_{property}" in feature["properties"] for prefix, property in
-                                zip(prefixed, statistic_properties))
+                            all(f"{prefix}_{property_name}" in feature["properties"] for prefix, property_name in
+                                [(prefix, property_name) for prefix in prefixes for property_name in
+                                 statistic_properties])
                         )
                     )
 

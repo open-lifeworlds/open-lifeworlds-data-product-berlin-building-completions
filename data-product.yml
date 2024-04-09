@@ -67,7 +67,7 @@ output_ports:
     metadata:
       name: Berlin LOR building completions statistics
       author: Open Lifeworlds
-      url: https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-building-completions/main/data/berlin-lor-building-completions-2020-00/berlin-lor-building-completions-2020-00-districts.geojson
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-building-completions/tree/main/data
       license: CC-BY-4.0
       updated: 2024-04-15
     files:
