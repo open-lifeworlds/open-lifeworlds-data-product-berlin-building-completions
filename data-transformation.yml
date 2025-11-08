@@ -105,7 +105,7 @@ attribute_groups:
 input_port_groups:
   - id: berlin-building-completions
     input_ports:
-      - id: berlin-building-completions-2020-00
+      - id: berlin-building-completions-2020-00-csv
         files:
           - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
             target_file_name: berlin-building-completions-2020-00-districts.geojson
@@ -118,7 +118,7 @@ input_port_groups:
               - { source_file_name: berlin-building-completions-2020-00-17-construction-backlog-apartments-districts.csv,  source_file_prefix: "17_", attributes: *17 }
               - { source_file_name: berlin-building-completions-2020-00-18-construction-backlog-non-residential-buildings-districts.csv,  source_file_prefix: "18_", attributes: *18 }
               - { source_file_name: berlin-building-completions-2020-00-23-outflow-of-all-buildings-complete-districts-districts.csv,  source_file_prefix: "23_", attributes: *23 }
-      - id: berlin-building-completions-2021-00
+      - id: berlin-building-completions-2021-00-csv
         files:
           - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
             target_file_name: berlin-building-completions-2021-00-districts.geojson
@@ -131,7 +131,7 @@ input_port_groups:
               - { source_file_name: berlin-building-completions-2021-00-17-construction-backlog-apartments-districts.csv,  source_file_prefix: "17_", attributes: *17 }
               - { source_file_name: berlin-building-completions-2021-00-18-construction-backlog-non-residential-buildings-districts.csv,  source_file_prefix: "18_", attributes: *18 }
               - { source_file_name: berlin-building-completions-2021-00-23-outflow-of-all-buildings-complete-districts-districts.csv,  source_file_prefix: "23_", attributes: *23 }
-      - id: berlin-building-completions-2022-00
+      - id: berlin-building-completions-2022-00-csv
         files:
           - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
             target_file_name: berlin-building-completions-2022-00-districts.geojson
@@ -144,7 +144,7 @@ input_port_groups:
               - { source_file_name: berlin-building-completions-2022-00-17-construction-backlog-apartments-districts.csv,  source_file_prefix: "17_", attributes: *17 }
               - { source_file_name: berlin-building-completions-2022-00-18-construction-backlog-non-residential-buildings-districts.csv,  source_file_prefix: "18_", attributes: *18 }
               - { source_file_name: berlin-building-completions-2022-00-23-outflow-of-all-buildings-complete-districts-districts.csv,  source_file_prefix: "23_", attributes: *23 }
-      - id: berlin-building-completions-2023-00
+      - id: berlin-building-completions-2023-00-csv
         files:
           - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
             target_file_name: berlin-building-completions-2023-00-districts.geojson
