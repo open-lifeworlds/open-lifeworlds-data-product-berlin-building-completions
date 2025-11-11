@@ -6,7 +6,7 @@ metadata:
   description: Data product Berlin building completion data on different hierarchy levels
   url:
   license:
-  updated: 2025-10-27
+  updated: 2025-10-28
   schema:
     - name: buildings
       description: number of buildings
@@ -32,6 +32,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-city/berlin-lor-city.geojson
+    manifest_url:
   - id: berlin-lor-district-regions-from-2021
     metadata:
       name: Berlin Lor District Regions From 2021
@@ -43,6 +44,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+    manifest_url:
   - id: berlin-lor-district-regions-until-2020
     metadata:
       name: Berlin Lor District Regions Until 2020
@@ -54,6 +56,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+    manifest_url:
   - id: berlin-lor-districts
     metadata:
       name: Berlin Lor Districts
@@ -65,6 +68,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-districts/berlin-lor-districts.geojson
+    manifest_url:
   - id: berlin-lor-forecast-areas-from-2021
     metadata:
       name: Berlin Lor Forecast Areas From 2021
@@ -76,6 +80,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+    manifest_url:
   - id: berlin-lor-forecast-areas-until-2020
     metadata:
       name: Berlin Lor Forecast Areas Until 2020
@@ -87,6 +92,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+    manifest_url:
   - id: berlin-lor-planning-areas-from-2021
     metadata:
       name: Berlin Lor Planning Areas From 2021
@@ -98,6 +104,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+    manifest_url:
   - id: berlin-lor-planning-areas-until-2020
     metadata:
       name: Berlin Lor Planning Areas Until 2020
@@ -109,6 +116,7 @@ input_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+    manifest_url:
   - id: berlin-lor-matches
     metadata:
       name: Berlin Lor Matches
@@ -120,6 +128,7 @@ input_ports:
       schema: []
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/03-gold/berlin-lor-matches/berlin-lor-matches.json
+    manifest_url:
   - id: berlin-building-completions-2020-00-csv
     metadata:
       name: Berlin Building Completions 2020 00 Csv
@@ -146,6 +155,7 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2020-00-csv/berlin-building-completions-2020-00-18-construction-backlog-non-residential-buildings-districts.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2020-00-csv/berlin-building-completions-2020-00-23-outflow-of-all-buildings-complete-districts-city.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2020-00-csv/berlin-building-completions-2020-00-23-outflow-of-all-buildings-complete-districts-districts.csv
+    manifest_url:
   - id: berlin-building-completions-2020-00-parquet
     metadata:
       name: Berlin Building Completions 2020 00 Parquet
@@ -172,6 +182,7 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2020-00-parquet/berlin-building-completions-2020-00-18-construction-backlog-non-residential-buildings-districts.parquet
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2020-00-parquet/berlin-building-completions-2020-00-23-outflow-of-all-buildings-complete-districts-city.parquet
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2020-00-parquet/berlin-building-completions-2020-00-23-outflow-of-all-buildings-complete-districts-districts.parquet
+    manifest_url:
   - id: berlin-building-completions-2021-00-csv
     metadata:
       name: Berlin Building Completions 2021 00 Csv
@@ -198,6 +209,7 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2021-00-csv/berlin-building-completions-2021-00-18-construction-backlog-non-residential-buildings-districts.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2021-00-csv/berlin-building-completions-2021-00-23-outflow-of-all-buildings-complete-districts-city.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2021-00-csv/berlin-building-completions-2021-00-23-outflow-of-all-buildings-complete-districts-districts.csv
+    manifest_url:
   - id: berlin-building-completions-2021-00-parquet
     metadata:
       name: Berlin Building Completions 2021 00 Parquet
@@ -224,6 +236,7 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2021-00-parquet/berlin-building-completions-2021-00-18-construction-backlog-non-residential-buildings-districts.parquet
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2021-00-parquet/berlin-building-completions-2021-00-23-outflow-of-all-buildings-complete-districts-city.parquet
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2021-00-parquet/berlin-building-completions-2021-00-23-outflow-of-all-buildings-complete-districts-districts.parquet
+    manifest_url:
   - id: berlin-building-completions-2022-00-csv
     metadata:
       name: Berlin Building Completions 2022 00 Csv
@@ -250,6 +263,7 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2022-00-csv/berlin-building-completions-2022-00-18-construction-backlog-non-residential-buildings-districts.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2022-00-csv/berlin-building-completions-2022-00-23-outflow-of-all-buildings-complete-districts-city.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2022-00-csv/berlin-building-completions-2022-00-23-outflow-of-all-buildings-complete-districts-districts.csv
+    manifest_url:
   - id: berlin-building-completions-2022-00-parquet
     metadata:
       name: Berlin Building Completions 2022 00 Parquet
@@ -276,6 +290,7 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2022-00-parquet/berlin-building-completions-2022-00-18-construction-backlog-non-residential-buildings-districts.parquet
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2022-00-parquet/berlin-building-completions-2022-00-23-outflow-of-all-buildings-complete-districts-city.parquet
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2022-00-parquet/berlin-building-completions-2022-00-23-outflow-of-all-buildings-complete-districts-districts.parquet
+    manifest_url:
   - id: berlin-building-completions-2023-00-csv
     metadata:
       name: Berlin Building Completions 2023 00 Csv
@@ -302,6 +317,7 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2023-00-csv/berlin-building-completions-2023-00-18-construction-backlog-non-residential-buildings-districts.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2023-00-csv/berlin-building-completions-2023-00-23-outflow-of-all-buildings-complete-districts-city.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2023-00-csv/berlin-building-completions-2023-00-23-outflow-of-all-buildings-complete-districts-districts.csv
+    manifest_url:
   - id: berlin-building-completions-2023-00-parquet
     metadata:
       name: Berlin Building Completions 2023 00 Parquet
@@ -328,6 +344,7 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2023-00-parquet/berlin-building-completions-2023-00-18-construction-backlog-non-residential-buildings-districts.parquet
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2023-00-parquet/berlin-building-completions-2023-00-23-outflow-of-all-buildings-complete-districts-city.parquet
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-building-completions-source-aligned/main/data/03-gold/berlin-building-completions-2023-00-parquet/berlin-building-completions-2023-00-23-outflow-of-all-buildings-complete-districts-districts.parquet
+    manifest_url:
 transformation_steps:
   - name: Data extractor
     path: https://github.com/open-lifeworlds/open-lifeworlds-python-lib/blob/main/openlifeworlds/extract/data_extractor.py
@@ -343,13 +360,14 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/tree/main/data/03-gold/berlin-building-completions-geojson
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2020-00-districts.geojson
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2021-00-districts.geojson
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2022-00-districts.geojson
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2023-00-districts.geojson
+    manifest_url:
   - id: berlin-building-completions-statistics
     metadata:
       name: Berlin Building Completions Statistics
@@ -357,10 +375,11 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/tree/main/data/03-gold/berlin-building-completions-statistics
       license:
-      updated: 2025-10-27
+      updated: 2025-10-28
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-statistics/berlin-building-completions-statistics.json
+    manifest_url:
 observability:
   quality:
     - name: geojson_property_completeness

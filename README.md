@@ -41,23 +41,22 @@ uv venv
 source .venv/bin/activate
 ```
 
-Run this command to re-install the Open Data Product Python library.
+Run this command to install dependencies defined in `pyproject.toml`.
 
 ```shell
-uv pip install --no-cache-dir git+https://github.com/open-lifeworlds/open-lifeworlds-python-lib.git
+uv sync
+```
+
+Run this command to re-install the Open Data Product Python library (if necessary).
+
+```shell
+uv pip install --no-cache-dir git+https://github.com/open-data-product/open-data-product-python-lib.git
 ```
 
 Run this command to start the main script.
 
 ```shell
-python3 main.py [OPTION]...
-
-  -h, --help                           show this help
-  -c, --clean                          clean intermediate results before start
-  -q, --quiet                          do not log outputs
-
-Examples:
-  python3 main.py -c
+uv run main.py
 ```
 
 ## Roadmap
