@@ -1,0 +1,259 @@
+---
+dataProductDescriptor: data-product-descriptor
+info:
+  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:berlin-building-completions:1.0
+  name: Berlin Building Completions
+  version: '1.0'
+  domain: domain
+  owner:
+    id: Open Lifeworlds
+    name: Open Lifeworlds
+  id: berlin-building-completions
+  entityType:
+  displayName: Berlin Building Completions
+  description: Data product Berlin building completion data on different hierarchy levels
+  contactPoints:
+interfaceComponents:
+  outputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-completions-geojson
+      fullyQualifiedName: berlin-building-completions-geojson
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+  inputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-lor-city
+      fullyQualifiedName: berlin-lor-city
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-lor-district-regions-from-2021
+      fullyQualifiedName: berlin-lor-district-regions-from-2021
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-lor-district-regions-until-2020
+      fullyQualifiedName: berlin-lor-district-regions-until-2020
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-lor-districts
+      fullyQualifiedName: berlin-lor-districts
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-lor-forecast-areas-from-2021
+      fullyQualifiedName: berlin-lor-forecast-areas-from-2021
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-lor-forecast-areas-until-2020
+      fullyQualifiedName: berlin-lor-forecast-areas-until-2020
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-lor-planning-areas-from-2021
+      fullyQualifiedName: berlin-lor-planning-areas-from-2021
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-lor-planning-areas-until-2020
+      fullyQualifiedName: berlin-lor-planning-areas-until-2020
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-lor-matches
+      fullyQualifiedName: berlin-lor-matches
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-completions-2020-00-csv
+      fullyQualifiedName: berlin-building-completions-2020-00-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-completions-2020-00-parquet
+      fullyQualifiedName: berlin-building-completions-2020-00-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-completions-2021-00-csv
+      fullyQualifiedName: berlin-building-completions-2021-00-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-completions-2021-00-parquet
+      fullyQualifiedName: berlin-building-completions-2021-00-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-completions-2022-00-csv
+      fullyQualifiedName: berlin-building-completions-2022-00-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-completions-2022-00-parquet
+      fullyQualifiedName: berlin-building-completions-2022-00-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-completions-2023-00-csv
+      fullyQualifiedName: berlin-building-completions-2023-00-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-completions-2023-00-parquet
+      fullyQualifiedName: berlin-building-completions-2023-00-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+  discoveryPorts:
+  observabilityPorts:
+  controlPorts:
+internalComponents:
+components:
+tags:
+externalDocs:

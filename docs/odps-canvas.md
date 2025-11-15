@@ -1,5 +1,5 @@
 
-# Open Data Product Specification (ODPS) Canvas - Berlin LOR Building Completions
+# Open Data Product Specification (ODPS) Canvas - Berlin Building Completions
 
 * schema version: 3.1
 ## Product
@@ -8,13 +8,13 @@
 
 * output file formats: geojson
 * categories: timeseries
-* description: Data product combining Berlin LOR building completion data and geodata
-* logo URL: https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-berlin-lor-building-completions/refs/heads/main/logo-with-text.png
-* product ID: berlin-lor-building-completions
+* description: Data product Berlin building completion data on different hierarchy levels
+* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
+* product ID: berlin-building-completions
 * product series: Berlin Timeseries Series
 * status: active
-* tags: Berlin, building
-* type: consumer-aligned
+* tags: berlin, building
+* type: source-aligned
 * value proposition: Combining Berlin LOR building completion data and geodata
 * version: 1.0
 * visibility: public

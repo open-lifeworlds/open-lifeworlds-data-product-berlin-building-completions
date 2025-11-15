@@ -1,24 +1,51 @@
 ---
 schema: https://opendataproducts.org/v3.1/schema/odps.yaml
-version: 3.1
+version: '3.1'
 product:
-  dataHolder:
-    URL: "https://openlifeworlds.de"
   en:
-    name: "Berlin LOR Building Completions"
-    productID: "berlin-lor-building-completions"
-    valueProposition: "Combining Berlin LOR building completion data and geodata"
-    description: "Data product combining Berlin LOR building completion data and geodata"
-    productSeries: "Berlin Timeseries Series"
-    visibility: "public"
-    status: "active"
-    version: "1.0"
-    categories:
-      - timeseries
-    tags:
-      - Berlin
-      - building
-    type: "consumer-aligned"
-    logoURL: "https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-berlin-lor-building-completions/refs/heads/main/logo-with-text.png"
+    name: Berlin Building Completions
+    productID: berlin-building-completions
+    status: active
+    type: source-aligned
+    visibility: public
     OutputFileFormats:
       - geojson
+    brandSlogan:
+    categories:
+      - timeseries
+    description: Data product Berlin building completion data on different hierarchy levels
+    logoURL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
+    productSeries: Berlin Timeseries Series
+    standards: []
+    tags:
+      - berlin
+      - building
+    useCases: []
+    valueProposition: Combining Berlin LOR building completion data and geodata
+    version: '1.0'
+  sla: []
+  dataAccess:
+  dataHolder:
+    URL: https://openlifeworlds.de
+    addressCountry:
+    addressLocality:
+    addressRegion:
+    streetAddress:
+    postalCode:
+    telephone:
+    aggregateRating:
+    businessDomain:
+    description:
+    logoURL:
+    parentOrganization:
+    ratingCount:
+    slogan:
+    taxID:
+    vatID:
+  dataOps:
+  dataQuality: []
+  license:
+  pricingPlans:
+  support:
+  recommendedDataProducts: []
+details:
