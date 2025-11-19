@@ -28,6 +28,19 @@ interfaceComponents:
       componentGroup:
       tags:
       externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-building-completions-statistics
+      fullyQualifiedName: berlin-building-completions-statistics
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
   inputPorts:
     - promises:
       expectations:

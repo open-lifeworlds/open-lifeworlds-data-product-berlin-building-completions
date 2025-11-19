@@ -10,6 +10,7 @@ product:
     visibility: public
     OutputFileFormats:
       - geojson
+      - .json
     brandSlogan:
     categories:
       - timeseries

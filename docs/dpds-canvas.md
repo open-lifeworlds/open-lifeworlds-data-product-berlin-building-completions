@@ -58,6 +58,8 @@
 ### Output Ports
 #### berlin-building-completions-geojson
 * fully qualified name: berlin-building-completions-geojson
+#### berlin-building-completions-statistics
+* fully qualified name: berlin-building-completions-statistics
 
 
 ---

@@ -108,14 +108,14 @@ def main(clean, quiet):
         data_product_manifest=data_product_manifest,
         config_path=script_path,
         data_paths=[gold_path],
-        file_endings=(".geojson"),
+        file_endings=(".geojson", ".json"),
     )
 
     update_odps(
         data_product_manifest=data_product_manifest,
         odps=odps,
         config_path=script_path,
-        output_file_formats=["geojson"],
+        output_file_formats=["geojson", ".json"],
     )
 
     update_dpds(

@@ -52,10 +52,10 @@ Run this command to install dependencies defined in `pyproject.toml`.
 uv sync
 ```
 
-Run this command to re-install the Open Data Product Python library (if necessary).
+Run this command to re-install the Open Lifeworlds Python library (if necessary).
 
 ```shell
-uv pip install --no-cache-dir git+https://github.com/open-data-product/open-data-product-python-lib.git
+uv pip install --no-cache-dir git+https://github.com/open-lifeworlds/open-lifeworlds-python-lib.git
 ```
 
 Run this command to start the main script.
