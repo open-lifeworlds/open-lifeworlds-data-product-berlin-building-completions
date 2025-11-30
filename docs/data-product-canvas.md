@@ -5,7 +5,7 @@
 
 * owner: Open Lifeworlds
 * description: Data product Berlin building completion data on different hierarchy levels
-* updated: 2025-11-06
+* updated: 2025-11-07
 
 ## Input Ports
 
@@ -28,25 +28,25 @@
 name: Berlin Building Completions Geojson
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/tree/main/data/03-gold/berlin-building-completions-geojson
-* updated: 2025-11-06
+* updated: 2025-11-07
 
 **Files**
 
-* [berlin-building-completions-2020-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2020-00-districts.geojson)
-* [berlin-building-completions-2021-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2021-00-districts.geojson)
-* [berlin-building-completions-2022-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2022-00-districts.geojson)
-* [berlin-building-completions-2023-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2023-00-districts.geojson)
+* [berlin-building-completions-2020-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2020-00-districts.geojson)
+* [berlin-building-completions-2021-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2021-00-districts.geojson)
+* [berlin-building-completions-2022-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2022-00-districts.geojson)
+* [berlin-building-completions-2023-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2023-00-districts.geojson)
 
 
 ### berlin-building-completions-statistics
 name: Berlin Building Completions Statistics
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/tree/main/data/03-gold/berlin-building-completions-statistics
-* updated: 2025-11-06
+* updated: 2025-11-07
 
 **Files**
 
-* [berlin-building-completions-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/main/data/03-gold/berlin-building-completions-statistics/berlin-building-completions-statistics.json)
+* [berlin-building-completions-statistics.json](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-statistics/berlin-building-completions-statistics.json)
 
 
 ## Observability
