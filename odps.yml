@@ -12,17 +12,16 @@ product:
       - geojson
       - .json
     brandSlogan:
-    categories:
-      - timeseries
+    categories: []
     description: Data product Berlin building completion data on different hierarchy levels
-    logoURL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
-    productSeries: Berlin Timeseries Series
+    logoURL: https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/logo-with-text.png
+    productSeries:
     standards: []
     tags:
       - berlin
       - building
     useCases: []
-    valueProposition: Combining Berlin LOR building completion data and geodata
+    valueProposition:
     version: '1.0'
   sla: []
   dataAccess:

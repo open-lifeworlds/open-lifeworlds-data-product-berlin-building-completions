@@ -5,7 +5,7 @@
 
 * owner: Open Lifeworlds
 * description: Data product Berlin building completion data on different hierarchy levels
-* updated: 2025-11-07
+* updated: 2025-11-09
 
 ## Input Ports
 
@@ -28,7 +28,7 @@
 name: Berlin Building Completions Geojson
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/tree/main/data/03-gold/berlin-building-completions-geojson
-* updated: 2025-11-07
+* updated: 2025-11-09
 
 **Files**
 
@@ -42,7 +42,7 @@ name: Berlin Building Completions Geojson
 name: Berlin Building Completions Statistics
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/tree/main/data/03-gold/berlin-building-completions-statistics
-* updated: 2025-11-07
+* updated: 2025-11-09
 
 **Files**
 

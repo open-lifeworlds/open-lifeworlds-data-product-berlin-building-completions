@@ -6,7 +6,7 @@ metadata:
   description: Data product Berlin building completion data on different hierarchy levels
   url:
   license:
-  updated: 2025-11-07
+  updated: 2025-11-09
   schema:
     - name: buildings
       description: number of buildings
@@ -40,7 +40,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/tree/main/data/03-gold/berlin-building-completions-geojson
       license:
-      updated: 2025-11-07
+      updated: 2025-11-09
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-geojson/berlin-building-completions-2020-00-districts.geojson
@@ -54,7 +54,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/tree/main/data/03-gold/berlin-building-completions-statistics
       license:
-      updated: 2025-11-07
+      updated: 2025-11-09
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-building-completions/refs/heads/main/data/03-gold/berlin-building-completions-statistics/berlin-building-completions-statistics.json
