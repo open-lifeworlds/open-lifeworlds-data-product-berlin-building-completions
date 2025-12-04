@@ -6,10 +6,10 @@
     <img src="logo-with-text.png" alt="Logo" style="height: 80px; ">
   </a>
 
-  <h1 align="center">Berlin building completions</h1>
+  <h1 align="center">Berlin Building Completions</h1>
 
   <p align="center">
-    Data product providing Berlin building completions</a>
+    Data product providing Berlin building completions
   </p>
 </p>
 
